@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="start()">
+    <header>
+        <h1>Boons and Boosts (Name in progress)</h1>
+    </header>
+    <main>
+        <div id="sums">
+            There rests <span id="sum"></span>/<span id="sumMax"></span> remaining points
+        </div>
+        
+        <form action="" method="post">
+            <article>
+            <section>
+                <fieldset>
+                    <legend>Attributes</legend>
+                    <label for="STR">Strength</label> <input name="att" min="3" max="18" type="range" name="STR" id="STR" oninput="attChange('STR')"> <span id="STRspan"></span> <hr><br>
+                    <label for="DEX">Dexterity</label> <input name="att" min="3" max="18" type="range" name="DEX" id="DEX" oninput="attChange('DEX')"> <span id="DEXspan"></span><hr><br>
+                    <label for="CON">Constitution</label> <input name="att" min="3" max="18" type="range" name="CON" id="CON" oninput="attChange('CON')"> <span id="CONspan"></span><hr><br>
+                    <label for="INT">Intelligence</label> <input name="att" min="3" max="18" type="range" name="INT" id="INT" oninput="attChange('INT')"> <span id="INTspan"></span><hr><br>
+                    <label for="WIS">Wisdom</label> <input name="att" min="3" max="18" type="range" name="WIS" id="WIS" oninput="attChange('WIS')"> <span id="WISspan"></span><hr><br>
+                    <label for="CHR">Charisma</label> <input name="att" min="3" max="18" type="range" name="CHR" id="CHR" oninput="attChange('CHR')"> <span id="CHRspan"></span>
+                </fieldset>
+            </section>
+            <nav>
+                <div id="flaws">
+                    <p>Lesser flaws</p>
+                    <div id="lesserFlaws"></div>
+                    <p>Greater flaws</p>
+                    <div id="greaterFlaws"></div>
+                </div>
+            </nav>
+            </article>
+        </form>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>

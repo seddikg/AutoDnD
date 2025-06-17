@@ -1,0 +1,98 @@
+[
+    {
+        "id": "F1",
+        "name": "Sleepwalker",
+        "value": 3,
+        "isGreater": false
+    },
+    {
+        "id": "F2",
+        "name": "Fae-Touched Tongue",
+        "value": 3,
+        "isGreater": false
+    },
+    {
+        "id": "F3",
+        "name": "Arachnophobia",
+        "value": 3,
+        "isGreater": false
+    },
+    {
+        "id": "F4",
+        "name": "Pyrophobia",
+        "value": 3,
+        "isGreater": false
+    },
+    {
+        "id": "F5",
+        "name": "Necrophobia",
+        "value": 3,
+        "isGreater": false
+    },
+    {
+        "id": "F6",
+        "name": "Insomnia",
+        "value": 5,
+        "isGreater": true
+    },
+    {
+        "id": "F7",
+        "name": "Asthma",
+        "value": 5,
+        "isGreater": true
+    },
+    {
+        "id": "F8",
+        "name": "Illiteracy",
+        "value": 5,
+        "isGreater": true
+    },
+    {
+        "id": "F9",
+        "name": "Clumsy",
+        "value": 5,
+        "isGreater": true
+    },
+    {
+        "id": "F10",
+        "name": "Unlucky",
+        "value": 5,
+        "isGreater": true
+    },
+    {
+        "id": "F11",
+        "name": "Schizophrenia",
+        "value": 5,
+        "isGreater": true
+    },
+    {
+        "id": "F12",
+        "name": "ADHD",
+        "value": 3,
+        "isGreater": false
+    },
+    {
+        "id": "F14",
+        "name": "Deformed",
+        "value": 5,
+        "isGreater": true
+    }
+    ,{
+        "id": "F13",
+        "name": "In debt + Poor",
+        "value": 5,
+        "isGreater": true
+    },
+    {
+        "id": "F15",
+        "name": "Gourmet",
+        "value": 3,
+        "isGreater": false
+    },
+    {
+        "id": "F16",
+        "name": "Sleepy",
+        "value": 5,
+        "isGreater": true
+    }
+]
