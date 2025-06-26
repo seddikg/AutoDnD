@@ -94,5 +94,11 @@
         "name": "Sleepy",
         "value": 5,
         "isGreater": true
+    },
+    {
+        "id": "F16",
+        "name": "Manic",
+        "value": 5,
+        "isGreater": true  
     }
 ]
